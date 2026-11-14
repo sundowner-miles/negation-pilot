@@ -1,0 +1,10 @@
+{
+  "crossing_skeleton_ids": [],
+  "examples_by_split": {
+    "dev": 120,
+    "test": 240,
+    "train": 840
+  },
+  "skeleton_count": 55,
+  "skeletons_crossing_splits": 0
+}

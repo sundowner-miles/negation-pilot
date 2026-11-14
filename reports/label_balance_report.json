@@ -1,0 +1,28 @@
+{
+  "negation_criticality_by_label_and_polarity": [
+    {
+      "count": 45,
+      "label": "FALSE",
+      "negation_critical": "False",
+      "query_polarity": "NEGATIVE"
+    },
+    {
+      "count": 45,
+      "label": "TRUE",
+      "negation_critical": "False",
+      "query_polarity": "POSITIVE"
+    },
+    {
+      "count": 45,
+      "label": "FALSE",
+      "negation_critical": "True",
+      "query_polarity": "POSITIVE"
+    },
+    {
+      "count": 45,
+      "label": "TRUE",
+      "negation_critical": "True",
+      "query_polarity": "NEGATIVE"
+    }
+  ]
+}

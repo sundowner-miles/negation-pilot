@@ -1,0 +1,492 @@
+{
+  "binary_labels": {
+    "0": 400,
+    "1": 400,
+    "null": 400
+  },
+  "critical_by_label": {
+    "FALSE": {
+      "False": 45,
+      "True": 355
+    },
+    "TRUE": {
+      "False": 195,
+      "True": 205
+    },
+    "UNKNOWN": {
+      "False": 302,
+      "True": 98
+    }
+  },
+  "depths": {
+    "0": 150,
+    "1": 230,
+    "3": 210,
+    "5": 210,
+    "null": 400
+  },
+  "duplicate_sample_count": 0,
+  "duplicate_structure_count": 0,
+  "examples": 1200,
+  "families": {
+    "antecedent_vs_query_atomic": 180,
+    "disjunction_vs_query_atomic": 140,
+    "fact_ds_vs_negfact": 180,
+    "quantifier_distractor_vs_query": 120,
+    "rule_consequent_contrast": 180,
+    "unk_fact_block": 150,
+    "unk_query_atomic_target": 40,
+    "unk_query_quantifier_form": 140,
+    "unk_rule_antecedent": 24,
+    "unk_rule_consequent": 24,
+    "unk_rule_quantifier_form": 22
+  },
+  "invalid_sample_count": 0,
+  "label_by_depth": {
+    "0": {
+      "FALSE": 150
+    },
+    "1": {
+      "FALSE": 90,
+      "TRUE": 140
+    },
+    "3": {
+      "FALSE": 80,
+      "TRUE": 130
+    },
+    "5": {
+      "FALSE": 80,
+      "TRUE": 130
+    },
+    "null": {
+      "UNKNOWN": 400
+    }
+  },
+  "label_by_position": {
+    "FACT": {
+      "FALSE": 90,
+      "TRUE": 160,
+      "UNKNOWN": 150
+    },
+    "QUERY": {
+      "FALSE": 220,
+      "UNKNOWN": 180
+    },
+    "RULE": {
+      "FALSE": 90,
+      "TRUE": 240,
+      "UNKNOWN": 70
+    }
+  },
+  "label_by_scope": {
+    "ATOMIC_PREDICATE": {
+      "FALSE": 250,
+      "TRUE": 160,
+      "UNKNOWN": 190
+    },
+    "PROPOSITION": {
+      "FALSE": 30,
+      "TRUE": 60,
+      "UNKNOWN": 81
+    },
+    "QUANTIFIER": {
+      "FALSE": 30,
+      "UNKNOWN": 81
+    },
+    "RULE_ANTECEDENT": {
+      "TRUE": 90,
+      "UNKNOWN": 24
+    },
+    "RULE_CONSEQUENT": {
+      "FALSE": 90,
+      "TRUE": 90,
+      "UNKNOWN": 24
+    }
+  },
+  "labels": {
+    "FALSE": 400,
+    "TRUE": 400,
+    "UNKNOWN": 400
+  },
+  "negation_critical": {
+    "False": 542,
+    "True": 658
+  },
+  "negation_forms": {
+    "atomic_literal": 440,
+    "disjunctive_syllogism": 160,
+    "existential_counterexample": 111,
+    "negated_universal": 171,
+    "rule_antecedent": 114,
+    "rule_consequent": 204
+  },
+  "nl_packs": {
+    "symbol": 1200
+  },
+  "not_applicable_position_scope": [
+    {
+      "count": 0,
+      "position": "FACT",
+      "reason": "A pilot fact is quantifier-free. It has no rule antecedent for a negation to occupy.",
+      "scope": "RULE_ANTECEDENT"
+    },
+    {
+      "count": 0,
+      "position": "FACT",
+      "reason": "A pilot fact is quantifier-free. It has no rule consequent for a negation to occupy.",
+      "scope": "RULE_CONSEQUENT"
+    },
+    {
+      "count": 0,
+      "position": "FACT",
+      "reason": "A negation inside an existential witness is a quantified sentence. It is stored as a rule or a query, not as a ground fact.",
+      "scope": "QUANTIFIER"
+    },
+    {
+      "count": 0,
+      "position": "FACT",
+      "reason": "Negation of a whole universal sentence is a quantified sentence. It is stored as a rule or a query, not as a ground fact.",
+      "scope": "PROPOSITION"
+    },
+    {
+      "count": 0,
+      "position": "RULE",
+      "reason": "Atomic-predicate negation in this pilot is a ground literal or a ground disjunction. Quantified sentences are rules, so this cell is not used.",
+      "scope": "ATOMIC_PREDICATE"
+    },
+    {
+      "count": 0,
+      "position": "QUERY",
+      "reason": "A negated rule antecedent is a knowledge-base rule, not a pilot query. Queries are ground literals or closed quantified sentences.",
+      "scope": "RULE_ANTECEDENT"
+    },
+    {
+      "count": 0,
+      "position": "QUERY",
+      "reason": "A negated rule consequent is a knowledge-base rule, not a pilot query.",
+      "scope": "RULE_CONSEQUENT"
+    }
+  ],
+  "pair_control": {
+    "by_family": {
+      "antecedent_vs_query_atomic": {
+        "controlled": 0,
+        "exploratory": 90
+      },
+      "disjunction_vs_query_atomic": {
+        "controlled": 0,
+        "exploratory": 70
+      },
+      "fact_ds_vs_negfact": {
+        "controlled": 0,
+        "exploratory": 90
+      },
+      "quantifier_distractor_vs_query": {
+        "controlled": 0,
+        "exploratory": 60
+      },
+      "rule_consequent_contrast": {
+        "controlled": 90,
+        "exploratory": 0
+      },
+      "unk_fact_block": {
+        "controlled": 75,
+        "exploratory": 0
+      },
+      "unk_query_atomic_target": {
+        "controlled": 20,
+        "exploratory": 0
+      },
+      "unk_query_quantifier_form": {
+        "controlled": 70,
+        "exploratory": 0
+      },
+      "unk_rule_antecedent": {
+        "controlled": 12,
+        "exploratory": 0
+      },
+      "unk_rule_consequent": {
+        "controlled": 12,
+        "exploratory": 0
+      },
+      "unk_rule_quantifier_form": {
+        "controlled": 11,
+        "exploratory": 0
+      }
+    },
+    "controlled_pairs": 290,
+    "exploratory_pairs": 310,
+    "pairs": 600,
+    "rejection_reasons": {
+      "hard_control_differs:inference_type": 220,
+      "hard_control_differs:proof_depth": 150,
+      "hard_control_differs:query": 220,
+      "inference_and_negation_property_both_change": 220,
+      "negation_position_and_scope_both_change": 120,
+      "undeclared_change:fact_count": 130,
+      "undeclared_change:inference_type": 220,
+      "undeclared_change:kb_negation_count": 220,
+      "undeclared_change:knowledge_base": 310,
+      "undeclared_change:negation_critical": 150,
+      "undeclared_change:negation_embedding": 280,
+      "undeclared_change:negation_function": 310,
+      "undeclared_change:negation_position": 220,
+      "undeclared_change:negation_scope": 120,
+      "undeclared_change:proof_depth": 150,
+      "undeclared_change:query": 220,
+      "undeclared_change:query_negation_count": 220,
+      "undeclared_change:query_polarity": 220,
+      "undeclared_change:relevant_premise_count": 150,
+      "undeclared_change:rule_count": 130,
+      "undeclared_change:statement_template": 310
+    }
+  },
+  "pair_types": {
+    "counterfactual_fact": 378,
+    "counterfactual_rule": 180,
+    "equivalent_form": 162,
+    "negation_relocation": 440,
+    "query_target_contrast": 40
+  },
+  "position_by_depth": {
+    "FACT": {
+      "0": 90,
+      "1": 60,
+      "3": 50,
+      "5": 50,
+      "null": 150
+    },
+    "QUERY": {
+      "0": 60,
+      "1": 60,
+      "3": 50,
+      "5": 50,
+      "null": 180
+    },
+    "RULE": {
+      "1": 110,
+      "3": 110,
+      "5": 110,
+      "null": 70
+    }
+  },
+  "position_by_scope": {
+    "FACT": {
+      "ATOMIC_PREDICATE": 400
+    },
+    "QUERY": {
+      "ATOMIC_PREDICATE": 200,
+      "PROPOSITION": 100,
+      "QUANTIFIER": 100
+    },
+    "RULE": {
+      "PROPOSITION": 71,
+      "QUANTIFIER": 11,
+      "RULE_ANTECEDENT": 114,
+      "RULE_CONSEQUENT": 204
+    }
+  },
+  "position_scope_depth_label": {
+    "FACT|ATOMIC_PREDICATE|0|FALSE": 90,
+    "FACT|ATOMIC_PREDICATE|1|TRUE": 60,
+    "FACT|ATOMIC_PREDICATE|3|TRUE": 50,
+    "FACT|ATOMIC_PREDICATE|5|TRUE": 50,
+    "FACT|ATOMIC_PREDICATE|None|UNKNOWN": 150,
+    "QUERY|ATOMIC_PREDICATE|1|FALSE": 60,
+    "QUERY|ATOMIC_PREDICATE|3|FALSE": 50,
+    "QUERY|ATOMIC_PREDICATE|5|FALSE": 50,
+    "QUERY|ATOMIC_PREDICATE|None|UNKNOWN": 40,
+    "QUERY|PROPOSITION|0|FALSE": 30,
+    "QUERY|PROPOSITION|None|UNKNOWN": 70,
+    "QUERY|QUANTIFIER|0|FALSE": 30,
+    "QUERY|QUANTIFIER|None|UNKNOWN": 70,
+    "RULE|PROPOSITION|1|TRUE": 20,
+    "RULE|PROPOSITION|3|TRUE": 20,
+    "RULE|PROPOSITION|5|TRUE": 20,
+    "RULE|PROPOSITION|None|UNKNOWN": 11,
+    "RULE|QUANTIFIER|None|UNKNOWN": 11,
+    "RULE|RULE_ANTECEDENT|1|TRUE": 30,
+    "RULE|RULE_ANTECEDENT|3|TRUE": 30,
+    "RULE|RULE_ANTECEDENT|5|TRUE": 30,
+    "RULE|RULE_ANTECEDENT|None|UNKNOWN": 24,
+    "RULE|RULE_CONSEQUENT|1|FALSE": 30,
+    "RULE|RULE_CONSEQUENT|1|TRUE": 30,
+    "RULE|RULE_CONSEQUENT|3|FALSE": 30,
+    "RULE|RULE_CONSEQUENT|3|TRUE": 30,
+    "RULE|RULE_CONSEQUENT|5|FALSE": 30,
+    "RULE|RULE_CONSEQUENT|5|TRUE": 30,
+    "RULE|RULE_CONSEQUENT|None|UNKNOWN": 24
+  },
+  "positions": {
+    "FACT": 400,
+    "QUERY": 400,
+    "RULE": 400
+  },
+  "public_error_count": 0,
+  "query_polarity_pairs": 0,
+  "scope_by_depth": {
+    "ATOMIC_PREDICATE": {
+      "0": 90,
+      "1": 120,
+      "3": 100,
+      "5": 100,
+      "null": 190
+    },
+    "PROPOSITION": {
+      "0": 30,
+      "1": 20,
+      "3": 20,
+      "5": 20,
+      "null": 81
+    },
+    "QUANTIFIER": {
+      "0": 30,
+      "null": 81
+    },
+    "RULE_ANTECEDENT": {
+      "1": 30,
+      "3": 30,
+      "5": 30,
+      "null": 24
+    },
+    "RULE_CONSEQUENT": {
+      "1": 60,
+      "3": 60,
+      "5": 60,
+      "null": 24
+    }
+  },
+  "scopes": {
+    "ATOMIC_PREDICATE": 600,
+    "PROPOSITION": 171,
+    "QUANTIFIER": 111,
+    "RULE_ANTECEDENT": 114,
+    "RULE_CONSEQUENT": 204
+  },
+  "skeletons": {
+    "abstract_template_count": 45,
+    "abstract_templates_crossing_splits": 5,
+    "crossing_examples": {
+      "fact_ds_vs_negfact|negative_fact|0|atomic_literal|FALSE": [
+        "test",
+        "train"
+      ],
+      "unk_fact_block|blocked_anchor|None|atomic_literal|UNKNOWN": [
+        "test",
+        "train"
+      ],
+      "unk_fact_block|irrelevant_negative_fact|None|atomic_literal|UNKNOWN": [
+        "test",
+        "train"
+      ],
+      "unk_query_atomic_target|unknown_query_individual0|None|atomic_literal|UNKNOWN": [
+        "dev",
+        "train"
+      ],
+      "unk_query_atomic_target|unknown_query_individual2|None|atomic_literal|UNKNOWN": [
+        "dev",
+        "train"
+      ]
+    }
+  },
+  "split_by_depth": {
+    "dev": {
+      "1": 60,
+      "3": 30,
+      "null": 30
+    },
+    "test": {
+      "0": 30,
+      "5": 130,
+      "null": 80
+    },
+    "train": {
+      "0": 120,
+      "1": 170,
+      "3": 180,
+      "5": 80,
+      "null": 290
+    }
+  },
+  "split_by_label": {
+    "dev": {
+      "FALSE": 45,
+      "TRUE": 45,
+      "UNKNOWN": 30
+    },
+    "test": {
+      "FALSE": 80,
+      "TRUE": 80,
+      "UNKNOWN": 80
+    },
+    "train": {
+      "FALSE": 275,
+      "TRUE": 275,
+      "UNKNOWN": 290
+    }
+  },
+  "split_by_pack": {
+    "dev": {
+      "symbol": 120
+    },
+    "test": {
+      "symbol": 240
+    },
+    "train": {
+      "symbol": 840
+    }
+  },
+  "split_by_position": {
+    "dev": {
+      "QUERY": 60,
+      "RULE": 60
+    },
+    "test": {
+      "FACT": 160,
+      "QUERY": 20,
+      "RULE": 60
+    },
+    "train": {
+      "FACT": 240,
+      "QUERY": 320,
+      "RULE": 280
+    }
+  },
+  "splits": {
+    "dev": 120,
+    "test": 240,
+    "train": 840
+  },
+  "stored_label_matches": 1200,
+  "structural_zeros": [
+    {
+      "cell": "QUERY label TRUE",
+      "reason": "With exactly one negation and no double negation, the negation would have to sit in the query. A TRUE label would then require the negation-free knowledge base to entail that negative query. The positive rules and facts in this pilot never entail a negative sentence, so the cell is empty."
+    },
+    {
+      "cell": "RULE_ANTECEDENT label FALSE",
+      "reason": "Proving a negative ground conclusion from a negated antecedent requires a second negative literal to discharge the antecedent. That would be a second negation, so the cell is empty."
+    },
+    {
+      "cell": "RULE + QUANTIFIER or PROPOSITION label FALSE",
+      "reason": "A negated universal in the knowledge base does not identify which domain element is the counterexample, so it does not by itself entail a negative ground atom. FALSE quantified items are queries that negate a stated universal."
+    },
+    {
+      "cell": "FACT label FALSE at depth 3 or 5",
+      "reason": "A negative ground fact is stated directly, so its reasoning depth is 0. It is not a one-step inference. Multi-hop FALSE examples use a negated rule consequent or a negated query."
+    },
+    {
+      "cell": "QUERY + QUANTIFIER or PROPOSITION label FALSE above depth 0",
+      "reason": "The knowledge base states the universal outright. The query is that statement's negation, so the proof is an axiom lookup of depth 0. Unused hops are not counted."
+    },
+    {
+      "cell": "pair type query_polarity",
+      "reason": "A query-polarity pair keeps one knowledge base and asks both q and NOT(q). Exactly one negation in every example forbids that pair: the positive query has zero negations when the base has none, and NOT(q) has two negations when the base already contains the target negation. Double negation is also excluded."
+    }
+  ],
+  "unique_base_cases": 600,
+  "unique_pairs": 600,
+  "validation_error_count": 0,
+  "validation_passed": true,
+  "z3_verification_success_rate": 1.0
+}

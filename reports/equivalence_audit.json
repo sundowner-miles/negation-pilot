@@ -1,0 +1,1141 @@
+{
+  "equivalent_form_pairs": 81,
+  "passed": 81,
+  "failed": 0,
+  "pairs": [
+    {
+      "pair_id": "pair-0499",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0500",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0501",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0502",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0503",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0504",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0505",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0506",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0507",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0508",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0509",
+      "family": "unk_rule_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0530",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0531",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0532",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0533",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0534",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0535",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0536",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0537",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0538",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0539",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0540",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0541",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0542",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0543",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0544",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0545",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0546",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0547",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0548",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0549",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0550",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0551",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0552",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0553",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0554",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0555",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0556",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0557",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0558",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0559",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0560",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0561",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0562",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0563",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0564",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0565",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0566",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0567",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0568",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0569",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0570",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0571",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0572",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0573",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0574",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0575",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0576",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0577",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0578",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0579",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0580",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0581",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0582",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0583",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0584",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0585",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0586",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0587",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0588",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0589",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0590",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0591",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0592",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0593",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0594",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0595",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0596",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0597",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0598",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    },
+    {
+      "pair_id": "pair-0599",
+      "family": "unk_query_quantifier_form",
+      "equivalence_verification": "pass",
+      "semantic_equivalent": true,
+      "labels": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "scopes": [
+        "PROPOSITION",
+        "QUANTIFIER"
+      ]
+    }
+  ]
+}

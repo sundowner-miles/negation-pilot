@@ -1,0 +1,173 @@
+{
+  "examples": {
+    "train": 840,
+    "dev": 120,
+    "test": 240
+  },
+  "base_cases": {
+    "train": 420,
+    "dev": 60,
+    "test": 120
+  },
+  "split_by_label": {
+    "dev": {
+      "TRUE": 45,
+      "FALSE": 45,
+      "UNKNOWN": 30
+    },
+    "test": {
+      "TRUE": 80,
+      "FALSE": 80,
+      "UNKNOWN": 80
+    },
+    "train": {
+      "TRUE": 275,
+      "FALSE": 275,
+      "UNKNOWN": 290
+    }
+  },
+  "split_by_negation_position": {
+    "dev": {
+      "RULE": 60,
+      "QUERY": 60
+    },
+    "test": {
+      "FACT": 90,
+      "RULE": 60,
+      "QUERY": 90
+    },
+    "train": {
+      "FACT": 310,
+      "RULE": 280,
+      "QUERY": 250
+    }
+  },
+  "split_by_negation_scope": {
+    "dev": {
+      "RULE_CONSEQUENT": 30,
+      "RULE_ANTECEDENT": 30,
+      "ATOMIC_PREDICATE": 60
+    },
+    "test": {
+      "ATOMIC_PREDICATE": 110,
+      "RULE_CONSEQUENT": 60,
+      "PROPOSITION": 35,
+      "QUANTIFIER": 35
+    },
+    "train": {
+      "ATOMIC_PREDICATE": 430,
+      "RULE_CONSEQUENT": 114,
+      "RULE_ANTECEDENT": 84,
+      "PROPOSITION": 136,
+      "QUANTIFIER": 76
+    }
+  },
+  "split_by_reasoning_depth": {
+    "dev": {
+      "3": 30,
+      "1": 60,
+      "null": 30
+    },
+    "test": {
+      "5": 70,
+      "0": 30,
+      "1": 30,
+      "3": 30,
+      "null": 80
+    },
+    "train": {
+      "1": 140,
+      "0": 120,
+      "3": 150,
+      "5": 140,
+      "null": 290
+    }
+  },
+  "split_by_query_polarity": {
+    "dev": {
+      "POSITIVE": 60,
+      "NEGATIVE": 60
+    },
+    "test": {
+      "POSITIVE": 120,
+      "NEGATIVE": 120
+    },
+    "train": {
+      "POSITIVE": 530,
+      "NEGATIVE": 310
+    }
+  },
+  "split_by_negation_criticality": {
+    "dev": {
+      "False": 75,
+      "True": 45
+    },
+    "test": {
+      "True": 135,
+      "False": 105
+    },
+    "train": {
+      "True": 478,
+      "False": 362
+    }
+  },
+  "split_by_pair_family": {
+    "dev": {
+      "rule_consequent_contrast": 30,
+      "antecedent_vs_query_atomic": 60,
+      "unk_query_atomic_target": 30
+    },
+    "test": {
+      "fact_ds_vs_negfact": 60,
+      "rule_consequent_contrast": 60,
+      "disjunction_vs_query_atomic": 40,
+      "unk_fact_block": 10,
+      "unk_query_quantifier_form": 70
+    },
+    "train": {
+      "fact_ds_vs_negfact": 120,
+      "rule_consequent_contrast": 90,
+      "antecedent_vs_query_atomic": 120,
+      "quantifier_distractor_vs_query": 120,
+      "disjunction_vs_query_atomic": 100,
+      "unk_fact_block": 140,
+      "unk_rule_antecedent": 24,
+      "unk_rule_consequent": 24,
+      "unk_rule_quantifier_form": 22,
+      "unk_query_atomic_target": 10,
+      "unk_query_quantifier_form": 70
+    }
+  },
+  "split_by_experimental_control": {
+    "dev": {
+      "True": 60,
+      "False": 60
+    },
+    "test": {
+      "False": 100,
+      "True": 140
+    },
+    "train": {
+      "False": 460,
+      "True": 380
+    }
+  },
+  "canonical_skeletons_by_split": {
+    "train": 38,
+    "dev": 6,
+    "test": 11
+  },
+  "group_size_distribution": {
+    "5": 3,
+    "6": 5,
+    "7": 1,
+    "8": 1,
+    "15": 6,
+    "30": 3,
+    "35": 4,
+    "50": 2,
+    "60": 2
+  },
+  "group_count": 27,
+  "train_test_skeleton_overlap": 0
+}

@@ -1,0 +1,10 @@
+{
+  "examples": 1200,
+  "base_cases": 600,
+  "pairs": 600,
+  "sample_ids_unchanged": true,
+  "frozen_mismatches": 0,
+  "mismatch_ids": [],
+  "warnings": [],
+  "stored_z3_matches": 1200
+}

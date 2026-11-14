@@ -1,0 +1,165 @@
+# Pilot v1 configuration. Experimental parameters live here, not in the builders.
+seed: 20261111
+generator_version: "0.1.0"
+
+output:
+  public: data/generated/pilot.public.jsonl
+  gold: data/generated/pilot.gold.jsonl
+
+# Train and dev share wording so dev can select models.
+# Test holds out the sentence frames, the surface vocabulary, and uses a larger domain.
+split:
+  train: 0.70
+  dev: 0.10
+  test: 0.20
+
+domain_size_by_split:
+  train: 3
+  dev: 3
+  test: 3
+
+nl_pack_by_split:
+  train: symbol
+  dev: symbol
+  test: symbol
+
+lexicon_by_pack:
+  alpha:
+    individual_prefix: wug
+    predicate_prefix: fim
+  beta:
+    individual_prefix: bov
+    predicate_prefix: zek
+
+# Query polarity (q versus NOT(q) on one knowledge base) is disabled.
+# Both members cannot contain exactly one negation unless one member is
+# negation-free or the other doubles the negation.
+expected_totals:
+  examples: 1200
+  base_cases: 600
+  pairs: 600
+  determinate_pairs: 400
+  unknown_pairs: 200
+  labels:
+    "TRUE": 400
+    "FALSE": 400
+    "UNKNOWN": 400
+  positions:
+    FACT: 400
+    RULE: 400
+    QUERY: 400
+  scopes:
+    ATOMIC_PREDICATE: 600
+    RULE_ANTECEDENT: 114
+    RULE_CONSEQUENT: 204
+    QUANTIFIER: 111
+    PROPOSITION: 171
+  depths:
+    "0": 150
+    "1": 230
+    "3": 210
+    "5": 210
+    "null": 400
+  splits_base_cases:
+    train: 420
+    dev: 60
+    test: 120
+
+families:
+  - id: fact_ds_vs_negfact
+    builder: fact_ds_vs_negfact
+    pair_type: counterfactual_fact
+    kind: determinate
+    instances:
+      - {depth_true: 1, depth_false: 0, count: 30}
+      - {depth_true: 3, depth_false: 0, count: 30}
+      - {depth_true: 5, depth_false: 0, count: 30}
+
+  - id: rule_consequent_contrast
+    builder: rule_consequent_contrast
+    pair_type: counterfactual_rule
+    kind: determinate
+    instances:
+      - {depth: 1, query_polarity: POSITIVE, count: 15}
+      - {depth: 1, query_polarity: NEGATIVE, count: 15}
+      - {depth: 3, query_polarity: POSITIVE, count: 15}
+      - {depth: 3, query_polarity: NEGATIVE, count: 15}
+      - {depth: 5, query_polarity: POSITIVE, count: 15}
+      - {depth: 5, query_polarity: NEGATIVE, count: 15}
+
+  - id: antecedent_vs_query_atomic
+    builder: antecedent_vs_query_atomic
+    pair_type: negation_relocation
+    kind: determinate
+    instances:
+      - {depth: 1, count: 30}
+      - {depth: 3, count: 30}
+      - {depth: 5, count: 30}
+
+  - id: quantifier_distractor_vs_query
+    builder: quantifier_distractor_vs_query
+    pair_type: negation_relocation
+    kind: determinate
+    instances:
+      - {depth_true: 1, depth_false: 0, count: 20}
+      - {depth_true: 3, depth_false: 0, count: 20}
+      - {depth_true: 5, depth_false: 0, count: 20}
+
+  - id: disjunction_vs_query_atomic
+    builder: disjunction_vs_query_atomic
+    pair_type: negation_relocation
+    kind: determinate
+    instances:
+      - {depth: 1, count: 30}
+      - {depth: 3, count: 20}
+      - {depth: 5, count: 20}
+
+  - id: unk_fact_block
+    builder: unk_fact_block
+    pair_type: counterfactual_fact
+    kind: unknown
+    instances:
+      - {depth: 1, count: 5}
+      - {depth: 3, count: 35}
+      - {depth: 5, count: 35}
+
+  - id: unk_rule_antecedent
+    builder: unk_rule_antecedent
+    pair_type: counterfactual_fact
+    kind: unknown
+    instances:
+      - {depth: 3, count: 6}
+      - {depth: 5, count: 6}
+
+  - id: unk_rule_consequent
+    builder: unk_rule_consequent
+    pair_type: counterfactual_fact
+    kind: unknown
+    instances:
+      - {depth: 3, count: 6}
+      - {depth: 5, count: 6}
+
+  - id: unk_rule_quantifier_form
+    builder: unk_rule_quantifier_form
+    pair_type: equivalent_form
+    kind: unknown
+    instances:
+      - {depth: 3, count: 6}
+      - {depth: 5, count: 5}
+
+  - id: unk_query_atomic_target
+    builder: unk_query_atomic_target
+    pair_type: query_target_contrast
+    kind: unknown
+    instances:
+      - {depth: 1, count: 5}
+      - {depth: 3, count: 7}
+      - {depth: 5, count: 8}
+
+  - id: unk_query_quantifier_form
+    builder: unk_query_quantifier_form
+    pair_type: equivalent_form
+    kind: unknown
+    instances:
+      - {depth: 3, count: 35}
+      - {depth: 5, count: 35}

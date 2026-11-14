@@ -1,0 +1,1558 @@
+{
+  "definitions": {
+    "negation_form": "\u88ab\u7814\u7a76\u5426\u5b9a\u7684\u53e5\u6cd5\u5f62\u5f0f\u3002\u4e0d\u662f\u63a8\u7406\u64cd\u4f5c\u3002",
+    "negation_embedding": "\u8fd9\u4e2a Not \u6240\u5728\u7684\u7ed3\u6784\u4f4d\u7f6e\u3002",
+    "negation_function": "\u8fd9\u4e2a\u5426\u5b9a\u5728\u5f53\u524d\u6837\u672c\u63a8\u7406\u91cc\u7684\u4f5c\u7528\u3002",
+    "inference_type": "\u5b9e\u9645\u4f7f\u7528\u7684\u63a8\u7406\u64cd\u4f5c\u3002\u4e0e negation_form \u5206\u5f00\u8bb0\u5f55\u3002",
+    "forms": {
+      "atomic_literal": "Not \u76f4\u63a5\u4f5c\u7528\u5728\u539f\u5b50\u8c13\u8bcd\u4e0a\u3002",
+      "negated_disjunct": "\u88ab\u7814\u7a76\u7684 Not \u662f\u6790\u53d6\u7684\u4e00\u4e2a\u6790\u53d6\u9879\u3002",
+      "rule_antecedent": "Not \u5728\u8574\u542b\u7684\u524d\u4ef6\u91cc\u3002",
+      "rule_consequent": "Not \u5728\u8574\u542b\u7684\u540e\u4ef6\u91cc\u3002",
+      "negated_universal": "Not \u4f5c\u7528\u5728\u5168\u79f0\u516c\u5f0f\u4e0a\u3002",
+      "existential_counterexample": "\u5b58\u5728\u91cf\u8bcd\u7684\u5408\u53d6\u652f\u91cc\u5e26 Not\u3002"
+    },
+    "embeddings": {
+      "atomic": "\u539f\u5b50\u5426\u5b9a\u3002",
+      "disjunction": "\u6790\u53d6\u3002",
+      "rule_antecedent": "\u89c4\u5219\u524d\u4ef6\u3002",
+      "rule_consequent": "\u89c4\u5219\u540e\u4ef6\u3002",
+      "negated_universal": "\u5426\u5b9a\u5168\u79f0\u3002",
+      "existential": "\u5b58\u5728\u516c\u5f0f\u3002"
+    }
+  },
+  "old_counts": {
+    "disjunctive_syllogism": 160,
+    "atomic_literal": 440,
+    "rule_consequent": 204,
+    "rule_antecedent": 114,
+    "negated_universal": 171,
+    "existential_counterexample": 111
+  },
+  "new_counts": {
+    "negated_disjunct": 160,
+    "atomic_literal": 440,
+    "rule_consequent": 204,
+    "rule_antecedent": 114,
+    "negated_universal": 171,
+    "existential_counterexample": 111
+  },
+  "changed": 160,
+  "changed_hosts": {
+    "Or": 160
+  },
+  "changed_samples": [
+    {
+      "sample_id": "ex-0000a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0001a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0002a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0003a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0004a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0005a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0006a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0007a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0008a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0009a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0010a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0011a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0012a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0013a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0014a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0015a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0016a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0017a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0018a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0019a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0020a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0021a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0022a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0023a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0024a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0025a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0026a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0027a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0028a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0029a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0030a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0031a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0032a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0033a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0034a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0035a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0036a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0037a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0038a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0039a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0040a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0041a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0042a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0043a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0044a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0045a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0046a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0047a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0048a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0049a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0050a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0051a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0052a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0053a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0054a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0055a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0056a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0057a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0058a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0059a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0060a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0061a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0062a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0063a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0064a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0065a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0066a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0067a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0068a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0069a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0070a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0071a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0072a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0073a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0074a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0075a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0076a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0077a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0078a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0079a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0080a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0081a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0082a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0083a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0084a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0085a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0086a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0087a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0088a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0089a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0330a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0331a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0332a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0333a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0334a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0335a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0336a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0337a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0338a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0339a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0340a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0341a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0342a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0343a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0344a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0345a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0346a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0347a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0348a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0349a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0350a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0351a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0352a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0353a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0354a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0355a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0356a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0357a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0358a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0359a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0360a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0361a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0362a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0363a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0364a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0365a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0366a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0367a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0368a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0369a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0370a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0371a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0372a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0373a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0374a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0375a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0376a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0377a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0378a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0379a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0380a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0381a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0382a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0383a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0384a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0385a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0386a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0387a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0388a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0389a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0390a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0391a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0392a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0393a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0394a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0395a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0396a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0397a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0398a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    },
+    {
+      "sample_id": "ex-0399a",
+      "old_form": "disjunctive_syllogism",
+      "new_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "negation_embedding": "disjunction",
+      "negation_function": "disjunctive_premise",
+      "studied_host": "Or"
+    }
+  ],
+  "form_by_inference_type": [
+    {
+      "negation_form": "atomic_literal",
+      "inference_type": "fact_lookup",
+      "count": 90
+    },
+    {
+      "negation_form": "atomic_literal",
+      "inference_type": "modus_ponens",
+      "count": 160
+    },
+    {
+      "negation_form": "atomic_literal",
+      "inference_type": "no_proof",
+      "count": 190
+    },
+    {
+      "negation_form": "existential_counterexample",
+      "inference_type": "axiom_lookup",
+      "count": 30
+    },
+    {
+      "negation_form": "existential_counterexample",
+      "inference_type": "no_proof",
+      "count": 81
+    },
+    {
+      "negation_form": "negated_disjunct",
+      "inference_type": "disjunctive_syllogism",
+      "count": 60
+    },
+    {
+      "negation_form": "negated_disjunct",
+      "inference_type": "modus_ponens_then_disjunctive_syllogism",
+      "count": 100
+    },
+    {
+      "negation_form": "negated_universal",
+      "inference_type": "axiom_lookup",
+      "count": 30
+    },
+    {
+      "negation_form": "negated_universal",
+      "inference_type": "modus_ponens",
+      "count": 60
+    },
+    {
+      "negation_form": "negated_universal",
+      "inference_type": "no_proof",
+      "count": 81
+    },
+    {
+      "negation_form": "rule_antecedent",
+      "inference_type": "modus_ponens",
+      "count": 90
+    },
+    {
+      "negation_form": "rule_antecedent",
+      "inference_type": "no_proof",
+      "count": 24
+    },
+    {
+      "negation_form": "rule_consequent",
+      "inference_type": "modus_ponens",
+      "count": 180
+    },
+    {
+      "negation_form": "rule_consequent",
+      "inference_type": "no_proof",
+      "count": 24
+    }
+  ]
+}

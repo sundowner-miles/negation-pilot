@@ -1,0 +1,484 @@
+{
+  "pairs": 90,
+  "positive_pairs": 45,
+  "negative_pairs": 45,
+  "invalid_pairs": 0,
+  "cells": [
+    {
+      "query_polarity": "NEGATIVE",
+      "role": "critical",
+      "label": "TRUE",
+      "count": 45
+    },
+    {
+      "query_polarity": "NEGATIVE",
+      "role": "distractor",
+      "label": "FALSE",
+      "count": 45
+    },
+    {
+      "query_polarity": "POSITIVE",
+      "role": "critical",
+      "label": "FALSE",
+      "count": 45
+    },
+    {
+      "query_polarity": "POSITIVE",
+      "role": "distractor",
+      "label": "TRUE",
+      "count": 45
+    }
+  ],
+  "pair_rows": [
+    {
+      "pair_id": "pair-0090",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0091",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0092",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0093",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0094",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0095",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0096",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0097",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0098",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0099",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0100",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0101",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0102",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0103",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0104",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0105",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0106",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0107",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0108",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0109",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0110",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0111",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0112",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0113",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0114",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0115",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0116",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0117",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0118",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0119",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0120",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0121",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0122",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0123",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0124",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0125",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0126",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0127",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0128",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0129",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0130",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0131",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0132",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0133",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0134",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0135",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0136",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0137",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0138",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0139",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0140",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0141",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0142",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0143",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0144",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0145",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0146",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0147",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0148",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0149",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0150",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0151",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0152",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0153",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0154",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0155",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0156",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0157",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0158",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0159",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0160",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0161",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0162",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0163",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0164",
+      "query_polarity": "POSITIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0165",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0166",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0167",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0168",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0169",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0170",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0171",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0172",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0173",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0174",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0175",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0176",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0177",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0178",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    },
+    {
+      "pair_id": "pair-0179",
+      "query_polarity": "NEGATIVE",
+      "problems": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "verdict": "READY FOR PILOT",
+  "sections": {
+    "integrity": "PASS",
+    "split": "PASS",
+    "experiments": "PASS",
+    "leakage_and_control": "PASS"
+  },
+  "integrity": {
+    "status": "PASS",
+    "v1.0_examples": 1200,
+    "v1.1_examples": 1200,
+    "sample_ids_match": true,
+    "z3_checked": 1200,
+    "z3_mismatches": 0,
+    "invalid_samples": 0,
+    "duplicate_sample_ids": 0,
+    "duplicate_logical_structures": 0,
+    "changed_sample_ids": {}
+  },
+  "split": {
+    "status": "PASS",
+    "counts": {
+      "train": 840,
+      "test": 240,
+      "dev": 120
+    },
+    "problems": [],
+    "test_labels": [
+      "FALSE",
+      "TRUE",
+      "UNKNOWN"
+    ],
+    "test_positions": [
+      "FACT",
+      "QUERY",
+      "RULE"
+    ],
+    "test_depths": [
+      "0",
+      "1",
+      "3",
+      "5",
+      "null"
+    ],
+    "dev_fact": 0,
+    "dev_depth_0": 0,
+    "dev_depth_5": 0,
+    "accepted_limitation": "dev has no FACT, depth 0, or depth 5 because those groups cannot enter dev without breaking the atomic groups or the joint balance"
+  },
+  "experiments": {
+    "status": "PASS",
+    "criticality": {
+      "pairs": 90,
+      "positive_pairs": 45,
+      "negative_pairs": 45,
+      "problems": []
+    },
+    "negated_disjunct": {
+      "count": 160,
+      "inference_types": {
+        "disjunctive_syllogism": 60,
+        "modus_ponens_then_disjunctive_syllogism": 100
+      },
+      "problems": []
+    },
+    "equivalence": {
+      "pairs": 81,
+      "passed": 81,
+      "problems": []
+    }
+  },
+  "leakage_and_control": {
+    "status": "PASS",
+    "public_errors": [],
+    "forbidden_field_hits": [],
+    "controlled_pairs": 290,
+    "exploratory_pairs": 310,
+    "problems": []
+  },
+  "must_fix": [],
+  "accepted_limitations": [
+    "dev has no FACT examples and no depth 0 or depth 5",
+    "within one query polarity, negation criticality remains tied to one gold label",
+    "310 exploratory pairs change more than the declared manipulation"
+  ]
+}
