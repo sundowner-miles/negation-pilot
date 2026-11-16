@@ -1,0 +1,56 @@
+[
+  {
+    "input": "TRUE",
+    "predicted_label": "TRUE",
+    "explanation": null,
+    "parse_status": "exact"
+  },
+  {
+    "input": " FALSE ",
+    "predicted_label": "FALSE",
+    "explanation": null,
+    "parse_status": "exact"
+  },
+  {
+    "input": "UNKNOWN\n",
+    "predicted_label": "UNKNOWN",
+    "explanation": null,
+    "parse_status": "exact"
+  },
+  {
+    "input": "The answer is TRUE",
+    "predicted_label": "invalid_output",
+    "explanation": null,
+    "parse_status": "invalid"
+  },
+  {
+    "input": "TRUE.",
+    "predicted_label": "invalid_output",
+    "explanation": null,
+    "parse_status": "invalid"
+  },
+  {
+    "input": "<think>the query is entailed</think>\nTRUE",
+    "predicted_label": "TRUE",
+    "explanation": "the query is entailed",
+    "parse_status": "after_think"
+  },
+  {
+    "input": "<think>TRUE</think>",
+    "predicted_label": "invalid_output",
+    "explanation": null,
+    "parse_status": "invalid"
+  },
+  {
+    "input": "",
+    "predicted_label": "invalid_output",
+    "explanation": null,
+    "parse_status": "invalid"
+  },
+  {
+    "input": "true",
+    "predicted_label": "invalid_output",
+    "explanation": null,
+    "parse_status": "invalid"
+  }
+]

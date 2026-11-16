@@ -69,9 +69,12 @@ Dataset v1.1 按 AST 的 canonical skeleton 划分。同一对、同一个基础
 ```
 configs/pilot.yaml          配额、深度、句式、种子
 src/negpilot/               抽象语法树、Z3 语义、模板、渲染、生成器
+src/negpilot/evalkit/       Pilot 推理、解析、评分与实验 1–6 分析
 data/generated/             pilot.public.jsonl 与 pilot.gold.jsonl
-reports/                    distribution.json 与 pilot_report.md
-tests/                      语义、生成、对照对、数据审计
+pilot_runs/                 smoke、test 与消融运行的原始预测和报告
+reports/                    数据审计与实验 1–6 报告
+Negation_Pilot_Experiment_Plan_Dataset_v1.1.md  实验计划
+tests/                      语义、生成、对照对、数据审计、evalkit
 ```
 
 `pilot.public.jsonl` 是评测输入，不含金标签、二值标签、抽象语法树、证明轨迹和对照审计字段。这些字段在 `pilot.gold.jsonl` 里。用 `sample_id` 对齐。`binary_label` 中，TRUE 为 `1`，FALSE 为 `0`，UNKNOWN 为 `null`。

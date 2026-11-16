@@ -1,0 +1,20 @@
+run_id: phase1-smoke-20261114
+recorded_at_utc: 2026-11-14T02:22:21.971209+00:00
+command: python -m negpilot.evalkit smoke
+public: data/generated/pilot.public.jsonl
+gold_used_for: sample selection and scoring only
+models:
+  Qwen/Qwen3.5-4B  revision=modelscope-master-ed182e32  path=/root/autodl-tmp/models/Qwen/Qwen3.5-4B
+  Qwen/Qwen3.5-9B  revision=modelscope-master-460979c3  path=/root/autodl-tmp/models/Qwen/Qwen3.5-9B
+warnings during load:
+  causal_conv1d_fn / causal_conv1d_update fell back to the PyTorch reference because causal_conv1d is not installed.
+  chunk_gated_delta_rule / fused_recurrent_gated_delta_rule fell back to the PyTorch reference because flash-linear-attention is not installed.
+  Transformers reports this fallback as correct and slower.
+result:
+  both models wrote 6 predictions
+  invalid_output: 0
+  generation errors: 0
+  retries: 0
+earlier failed attempts, before the successful run, did not write predictions:
+  CLI argument "smoke" was not stripped (fixed in src/negpilot/evalkit/__main__.py)
+  torchvision 0.18+cu121 could not import Qwen3_5ForConditionalGeneration on torch 2.6 (upgraded to torchvision 0.21.0+cu124)

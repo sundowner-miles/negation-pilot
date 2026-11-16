@@ -1,0 +1,31 @@
+{
+  "recorded_at_utc": "2026-11-14T02:22:21.971209+00:00",
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "torch": "2.6.0+cu124",
+  "cuda": {
+    "available": true,
+    "version": "12.4",
+    "bf16": true,
+    "device": "NVIDIA vGPU-32GB"
+  },
+  "transformers": "5.23.0",
+  "gpu": [
+    "NVIDIA vGPU-32GB, 32760 MiB, 550.120, 8.9"
+  ],
+  "git_head": "2a8dfb6b76d90dd2694602d88c62f4d5c52189cb",
+  "public_sha256": "b94a75c454991e4fa6804b90df382ae6a966cf0973a4f4cbfd2fce96d2260746",
+  "gold_sha256": "3135a6df0c99aefc08ce02d3423ac322fe69bc78d4d8316b7096b9a8f4e75206",
+  "prompt_version": "plan-6.4-v1",
+  "system_prompt_sha256": "75f57f37da556f1499f32c395721b20fe9122501595369c1a6062f9ce923187f",
+  "decoding": {
+    "do_sample": false,
+    "temperature": 0,
+    "top_p": null,
+    "top_k": null,
+    "max_new_tokens": 32,
+    "enable_thinking": false,
+    "retry_limit": 0,
+    "note": "Greedy decoding (do_sample=false) is the temperature-0 condition. generate() does not receive a temperature keyword. top_p and top_k are unused. This is not the vendor sampling recipe for non-thinking mode."
+  }
+}

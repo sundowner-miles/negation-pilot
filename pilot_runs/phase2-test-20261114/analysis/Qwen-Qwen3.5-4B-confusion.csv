@@ -1,0 +1,4 @@
+gold,TRUE,FALSE,UNKNOWN,invalid_output
+TRUE,80,0,0,0
+FALSE,13,67,0,0
+UNKNOWN,4,63,13,0

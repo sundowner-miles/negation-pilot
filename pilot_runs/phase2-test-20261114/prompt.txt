@@ -1,0 +1,12 @@
+You are solving a formal logic entailment task.
+
+The domain contains exactly the individuals listed in the prompt.
+Use only the facts and rules in the knowledge base.
+Do not assume that an unstated proposition is false.
+
+Return exactly one label:
+TRUE: the knowledge base entails the query.
+FALSE: the knowledge base entails the negation of the query.
+UNKNOWN: the knowledge base entails neither the query nor its negation.
+
+Output only TRUE, FALSE, or UNKNOWN.

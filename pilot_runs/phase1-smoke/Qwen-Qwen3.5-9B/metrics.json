@@ -1,0 +1,64 @@
+{
+  "n": 6,
+  "correct": 2,
+  "accuracy": 0.3333333333333333,
+  "macro_f1": 0.2222222222222222,
+  "invalid_output": 0,
+  "invalid_output_rate": 0.0,
+  "per_class": {
+    "TRUE": {
+      "support": 2,
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "error_rate": 0.0
+    },
+    "FALSE": {
+      "support": 2,
+      "tp": 0,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "error_rate": 1.0
+    },
+    "UNKNOWN": {
+      "support": 2,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "error_rate": 1.0
+    }
+  },
+  "confusion": {
+    "TRUE": {
+      "TRUE": 2,
+      "FALSE": 0,
+      "UNKNOWN": 0,
+      "invalid_output": 0
+    },
+    "FALSE": {
+      "TRUE": 2,
+      "FALSE": 0,
+      "UNKNOWN": 0,
+      "invalid_output": 0
+    },
+    "UNKNOWN": {
+      "TRUE": 0,
+      "FALSE": 2,
+      "UNKNOWN": 0,
+      "invalid_output": 0
+    }
+  },
+  "prediction_counts": {
+    "TRUE": 4,
+    "FALSE": 2
+  }
+}

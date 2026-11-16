@@ -1,0 +1,1670 @@
+{
+  "n": 240,
+  "experiment_1": {
+    "n": 240,
+    "correct": 126,
+    "accuracy": 0.525,
+    "macro_f1": 0.45644776182107166,
+    "invalid_output": 0,
+    "invalid_output_rate": 0.0,
+    "per_class": {
+      "TRUE": {
+        "support": 80,
+        "tp": 80,
+        "fp": 111,
+        "fn": 0,
+        "precision": 0.418848167539267,
+        "recall": 1.0,
+        "f1": 0.5904059040590406,
+        "error_rate": 0.0
+      },
+      "FALSE": {
+        "support": 80,
+        "tp": 41,
+        "fp": 3,
+        "fn": 39,
+        "precision": 0.9318181818181818,
+        "recall": 0.5125,
+        "f1": 0.661290322580645,
+        "error_rate": 0.4875
+      },
+      "UNKNOWN": {
+        "support": 80,
+        "tp": 5,
+        "fp": 0,
+        "fn": 75,
+        "precision": 1.0,
+        "recall": 0.0625,
+        "f1": 0.11764705882352941,
+        "error_rate": 0.9375
+      }
+    },
+    "confusion": {
+      "TRUE": {
+        "TRUE": 80,
+        "FALSE": 0,
+        "UNKNOWN": 0,
+        "invalid_output": 0
+      },
+      "FALSE": {
+        "TRUE": 39,
+        "FALSE": 41,
+        "UNKNOWN": 0,
+        "invalid_output": 0
+      },
+      "UNKNOWN": {
+        "TRUE": 72,
+        "FALSE": 3,
+        "UNKNOWN": 5,
+        "invalid_output": 0
+      }
+    },
+    "macro_f1_note": "unweighted mean of TRUE, FALSE and UNKNOWN F1",
+    "accuracy_ci95": [
+      0.4619249522099994,
+      0.5872873233000039
+    ]
+  },
+  "experiment_2": {
+    "family": "rule_consequent_contrast",
+    "rejected_pairs": [],
+    "pooled": {
+      "n_pairs": 30,
+      "pair_accuracy": 0.3333333333333333,
+      "critical": {
+        "n": 30,
+        "correct": 24,
+        "accuracy": 0.8,
+        "macro_f1": null,
+        "invalid_output": 0,
+        "invalid_output_rate": 0.0,
+        "per_class": {
+          "TRUE": {
+            "support": 15,
+            "tp": 15,
+            "fp": 6,
+            "fn": 0,
+            "precision": 0.7142857142857143,
+            "recall": 1.0,
+            "f1": 0.8333333333333333,
+            "error_rate": 0.0
+          },
+          "FALSE": {
+            "support": 15,
+            "tp": 9,
+            "fp": 0,
+            "fn": 6,
+            "precision": 1.0,
+            "recall": 0.6,
+            "f1": 0.7499999999999999,
+            "error_rate": 0.4
+          },
+          "UNKNOWN": {
+            "support": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "error_rate": null
+          }
+        },
+        "confusion": {
+          "TRUE": {
+            "TRUE": 15,
+            "FALSE": 0,
+            "UNKNOWN": 0,
+            "invalid_output": 0
+          },
+          "FALSE": {
+            "TRUE": 6,
+            "FALSE": 9,
+            "UNKNOWN": 0,
+            "invalid_output": 0
+          },
+          "UNKNOWN": {
+            "TRUE": 0,
+            "FALSE": 0,
+            "UNKNOWN": 0,
+            "invalid_output": 0
+          }
+        },
+        "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+        "accuracy_ci95": [
+          0.6269395261897256,
+          0.9049502189759876
+        ],
+        "condition": "critical"
+      },
+      "distractor": {
+        "n": 30,
+        "correct": 16,
+        "accuracy": 0.5333333333333333,
+        "macro_f1": null,
+        "invalid_output": 0,
+        "invalid_output_rate": 0.0,
+        "per_class": {
+          "TRUE": {
+            "support": 15,
+            "tp": 15,
+            "fp": 14,
+            "fn": 0,
+            "precision": 0.5172413793103449,
+            "recall": 1.0,
+            "f1": 0.6818181818181819,
+            "error_rate": 0.0
+          },
+          "FALSE": {
+            "support": 15,
+            "tp": 1,
+            "fp": 0,
+            "fn": 14,
+            "precision": 1.0,
+            "recall": 0.06666666666666667,
+            "f1": 0.125,
+            "error_rate": 0.9333333333333333
+          },
+          "UNKNOWN": {
+            "support": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "error_rate": null
+          }
+        },
+        "confusion": {
+          "TRUE": {
+            "TRUE": 15,
+            "FALSE": 0,
+            "UNKNOWN": 0,
+            "invalid_output": 0
+          },
+          "FALSE": {
+            "TRUE": 14,
+            "FALSE": 1,
+            "UNKNOWN": 0,
+            "invalid_output": 0
+          },
+          "UNKNOWN": {
+            "TRUE": 0,
+            "FALSE": 0,
+            "UNKNOWN": 0,
+            "invalid_output": 0
+          }
+        },
+        "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+        "accuracy_ci95": [
+          0.3614201328152505,
+          0.6976787277587178
+        ],
+        "condition": "distractor"
+      },
+      "transition": {
+        "both_correct": 10,
+        "critical_only": 14,
+        "distractor_only": 6,
+        "both_wrong": 0
+      },
+      "mcnemar": {
+        "b": 6,
+        "c": 14,
+        "n_discordant": 20,
+        "p_value": 0.11531829833984375
+      },
+      "critical_minus_distractor": {
+        "n_pairs": 30,
+        "difference": 0.26666666666666666,
+        "ci95": [
+          0.0,
+          0.5333333333333333
+        ],
+        "seed": 20261111,
+        "replicates": 10000
+      },
+      "gold_by_condition": {
+        "critical": [
+          "FALSE",
+          "TRUE"
+        ],
+        "distractor": [
+          "FALSE",
+          "TRUE"
+        ]
+      }
+    },
+    "by_query_polarity": {
+      "POSITIVE": {
+        "n_pairs": 15,
+        "pair_accuracy": 0.6,
+        "critical": {
+          "n": 15,
+          "correct": 9,
+          "accuracy": 0.6,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 6,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "FALSE": {
+              "support": 15,
+              "tp": 9,
+              "fp": 0,
+              "fn": 6,
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.7499999999999999,
+              "error_rate": 0.4
+            },
+            "UNKNOWN": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 6,
+              "FALSE": 9,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.357464427565077,
+            0.8017577191740534
+          ],
+          "condition": "critical"
+        },
+        "distractor": {
+          "n": 15,
+          "correct": 15,
+          "accuracy": 1.0,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 15,
+              "tp": 15,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "error_rate": 0.0
+            },
+            "FALSE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "UNKNOWN": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 15,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.7961107336956521,
+            1.0
+          ],
+          "condition": "distractor"
+        },
+        "transition": {
+          "both_correct": 9,
+          "critical_only": 0,
+          "distractor_only": 6,
+          "both_wrong": 0
+        },
+        "mcnemar": {
+          "b": 6,
+          "c": 0,
+          "n_discordant": 6,
+          "p_value": 0.03125
+        },
+        "critical_minus_distractor": {
+          "n_pairs": 15,
+          "difference": -0.4,
+          "ci95": [
+            -0.6666666666666666,
+            -0.13333333333333333
+          ],
+          "seed": 20261111,
+          "replicates": 10000
+        },
+        "gold_by_condition": {
+          "critical": [
+            "FALSE"
+          ],
+          "distractor": [
+            "TRUE"
+          ]
+        }
+      },
+      "NEGATIVE": {
+        "n_pairs": 15,
+        "pair_accuracy": 0.06666666666666667,
+        "critical": {
+          "n": 15,
+          "correct": 15,
+          "accuracy": 1.0,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 15,
+              "tp": 15,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "error_rate": 0.0
+            },
+            "FALSE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "UNKNOWN": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 15,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.7961107336956521,
+            1.0
+          ],
+          "condition": "critical"
+        },
+        "distractor": {
+          "n": 15,
+          "correct": 1,
+          "accuracy": 0.06666666666666667,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 14,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "FALSE": {
+              "support": 15,
+              "tp": 1,
+              "fp": 0,
+              "fn": 14,
+              "precision": 1.0,
+              "recall": 0.06666666666666667,
+              "f1": 0.125,
+              "error_rate": 0.9333333333333333
+            },
+            "UNKNOWN": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 14,
+              "FALSE": 1,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.011866588606194856,
+            0.2981707755242399
+          ],
+          "condition": "distractor"
+        },
+        "transition": {
+          "both_correct": 1,
+          "critical_only": 14,
+          "distractor_only": 0,
+          "both_wrong": 0
+        },
+        "mcnemar": {
+          "b": 0,
+          "c": 14,
+          "n_discordant": 14,
+          "p_value": 0.0001220703125
+        },
+        "critical_minus_distractor": {
+          "n_pairs": 15,
+          "difference": 0.9333333333333333,
+          "ci95": [
+            0.8,
+            1.0
+          ],
+          "seed": 20261111,
+          "replicates": 10000
+        },
+        "gold_by_condition": {
+          "critical": [
+            "TRUE"
+          ],
+          "distractor": [
+            "FALSE"
+          ]
+        }
+      }
+    }
+  },
+  "experiment_3": {
+    "by_position": [
+      {
+        "group": "FACT",
+        "metrics": {
+          "n": 90,
+          "correct": 85,
+          "accuracy": 0.9444444444444444,
+          "macro_f1": 0.8664799253034546,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 50,
+              "tp": 50,
+              "fp": 2,
+              "fn": 0,
+              "precision": 0.9615384615384616,
+              "recall": 1.0,
+              "f1": 0.9803921568627451,
+              "error_rate": 0.0
+            },
+            "FALSE": {
+              "support": 30,
+              "tp": 30,
+              "fp": 3,
+              "fn": 0,
+              "precision": 0.9090909090909091,
+              "recall": 1.0,
+              "f1": 0.9523809523809523,
+              "error_rate": 0.0
+            },
+            "UNKNOWN": {
+              "support": 10,
+              "tp": 5,
+              "fp": 0,
+              "fn": 5,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "error_rate": 0.5
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 50,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 0,
+              "FALSE": 30,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 2,
+              "FALSE": 3,
+              "UNKNOWN": 5,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "unweighted mean of TRUE, FALSE and UNKNOWN F1",
+          "accuracy_ci95": [
+            0.8764610019095158,
+            0.9760393817156567
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "TRUE",
+            "n": 50,
+            "correct": 50,
+            "accuracy": 1.0,
+            "accuracy_ci95": [
+              0.9286499658256813,
+              1.0
+            ]
+          },
+          {
+            "gold_label": "FALSE",
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1.0,
+            "accuracy_ci95": [
+              0.8864829086095221,
+              1.0
+            ]
+          },
+          {
+            "gold_label": "UNKNOWN",
+            "n": 10,
+            "correct": 5,
+            "accuracy": 0.5,
+            "accuracy_ci95": [
+              0.23658959361548731,
+              0.7634104063845126
+            ]
+          }
+        ]
+      },
+      {
+        "group": "QUERY",
+        "metrics": {
+          "n": 90,
+          "correct": 1,
+          "accuracy": 0.011111111111111112,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 89,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "FALSE": {
+              "support": 20,
+              "tp": 1,
+              "fp": 0,
+              "fn": 19,
+              "precision": 1.0,
+              "recall": 0.05,
+              "f1": 0.09523809523809523,
+              "error_rate": 0.95
+            },
+            "UNKNOWN": {
+              "support": 70,
+              "tp": 0,
+              "fp": 0,
+              "fn": 70,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "error_rate": 1.0
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 19,
+              "FALSE": 1,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 70,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.00196403353551235,
+            0.06028554447679775
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "FALSE",
+            "n": 20,
+            "correct": 1,
+            "accuracy": 0.05,
+            "accuracy_ci95": [
+              0.008881219432873136,
+              0.23613589351256675
+            ]
+          },
+          {
+            "gold_label": "UNKNOWN",
+            "n": 70,
+            "correct": 0,
+            "accuracy": 0.0,
+            "accuracy_ci95": [
+              0.0,
+              0.05202487486728348
+            ]
+          }
+        ]
+      },
+      {
+        "group": "RULE",
+        "metrics": {
+          "n": 60,
+          "correct": 40,
+          "accuracy": 0.6666666666666666,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 30,
+              "tp": 30,
+              "fp": 20,
+              "fn": 0,
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.7499999999999999,
+              "error_rate": 0.0
+            },
+            "FALSE": {
+              "support": 30,
+              "tp": 10,
+              "fp": 0,
+              "fn": 20,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5,
+              "error_rate": 0.6666666666666666
+            },
+            "UNKNOWN": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 30,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 20,
+              "FALSE": 10,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.540566298666634,
+            0.7727090578407216
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "TRUE",
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1.0,
+            "accuracy_ci95": [
+              0.8864829086095221,
+              1.0
+            ]
+          },
+          {
+            "gold_label": "FALSE",
+            "n": 30,
+            "correct": 10,
+            "accuracy": 0.3333333333333333,
+            "accuracy_ci95": [
+              0.19230295526846194,
+              0.5122027418616973
+            ]
+          }
+        ]
+      }
+    ],
+    "by_scope": [
+      {
+        "group": "ATOMIC_PREDICATE",
+        "metrics": {
+          "n": 110,
+          "correct": 86,
+          "accuracy": 0.7818181818181819,
+          "macro_f1": 0.74373606191788,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 50,
+              "tp": 50,
+              "fp": 21,
+              "fn": 0,
+              "precision": 0.704225352112676,
+              "recall": 1.0,
+              "f1": 0.8264462809917354,
+              "error_rate": 0.0
+            },
+            "FALSE": {
+              "support": 50,
+              "tp": 31,
+              "fp": 3,
+              "fn": 19,
+              "precision": 0.9117647058823529,
+              "recall": 0.62,
+              "f1": 0.7380952380952381,
+              "error_rate": 0.38
+            },
+            "UNKNOWN": {
+              "support": 10,
+              "tp": 5,
+              "fp": 0,
+              "fn": 5,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "error_rate": 0.5
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 50,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 19,
+              "FALSE": 31,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 2,
+              "FALSE": 3,
+              "UNKNOWN": 5,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "unweighted mean of TRUE, FALSE and UNKNOWN F1",
+          "accuracy_ci95": [
+            0.6958449001339267,
+            0.848771479115838
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "TRUE",
+            "n": 50,
+            "correct": 50,
+            "accuracy": 1.0,
+            "accuracy_ci95": [
+              0.9286499658256813,
+              1.0
+            ]
+          },
+          {
+            "gold_label": "FALSE",
+            "n": 50,
+            "correct": 31,
+            "accuracy": 0.62,
+            "accuracy_ci95": [
+              0.4815019502239357,
+              0.7413740415742278
+            ]
+          },
+          {
+            "gold_label": "UNKNOWN",
+            "n": 10,
+            "correct": 5,
+            "accuracy": 0.5,
+            "accuracy_ci95": [
+              0.23658959361548731,
+              0.7634104063845126
+            ]
+          }
+        ]
+      },
+      {
+        "group": "PROPOSITION",
+        "metrics": {
+          "n": 35,
+          "correct": 0,
+          "accuracy": 0.0,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 35,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "FALSE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "UNKNOWN": {
+              "support": 35,
+              "tp": 0,
+              "fp": 0,
+              "fn": 35,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "error_rate": 1.0
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 35,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.0,
+            0.09890426758938868
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "UNKNOWN",
+            "n": 35,
+            "correct": 0,
+            "accuracy": 0.0,
+            "accuracy_ci95": [
+              0.0,
+              0.09890426758938868
+            ]
+          }
+        ]
+      },
+      {
+        "group": "QUANTIFIER",
+        "metrics": {
+          "n": 35,
+          "correct": 0,
+          "accuracy": 0.0,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 35,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "FALSE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "UNKNOWN": {
+              "support": 35,
+              "tp": 0,
+              "fp": 0,
+              "fn": 35,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "error_rate": 1.0
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 35,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.0,
+            0.09890426758938868
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "UNKNOWN",
+            "n": 35,
+            "correct": 0,
+            "accuracy": 0.0,
+            "accuracy_ci95": [
+              0.0,
+              0.09890426758938868
+            ]
+          }
+        ]
+      },
+      {
+        "group": "RULE_CONSEQUENT",
+        "metrics": {
+          "n": 60,
+          "correct": 40,
+          "accuracy": 0.6666666666666666,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 30,
+              "tp": 30,
+              "fp": 20,
+              "fn": 0,
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.7499999999999999,
+              "error_rate": 0.0
+            },
+            "FALSE": {
+              "support": 30,
+              "tp": 10,
+              "fp": 0,
+              "fn": 20,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5,
+              "error_rate": 0.6666666666666666
+            },
+            "UNKNOWN": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 30,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 20,
+              "FALSE": 10,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.540566298666634,
+            0.7727090578407216
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "TRUE",
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1.0,
+            "accuracy_ci95": [
+              0.8864829086095221,
+              1.0
+            ]
+          },
+          {
+            "gold_label": "FALSE",
+            "n": 30,
+            "correct": 10,
+            "accuracy": 0.3333333333333333,
+            "accuracy_ci95": [
+              0.19230295526846194,
+              0.5122027418616973
+            ]
+          }
+        ]
+      }
+    ],
+    "controlled_by_position": [
+      {
+        "group": "FACT",
+        "metrics": {
+          "n": 10,
+          "correct": 5,
+          "accuracy": 0.5,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 2,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "FALSE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 3,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "UNKNOWN": {
+              "support": 10,
+              "tp": 5,
+              "fp": 0,
+              "fn": 5,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "error_rate": 0.5
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 2,
+              "FALSE": 3,
+              "UNKNOWN": 5,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.23658959361548731,
+            0.7634104063845126
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "UNKNOWN",
+            "n": 10,
+            "correct": 5,
+            "accuracy": 0.5,
+            "accuracy_ci95": [
+              0.23658959361548731,
+              0.7634104063845126
+            ]
+          }
+        ]
+      },
+      {
+        "group": "QUERY",
+        "metrics": {
+          "n": 70,
+          "correct": 0,
+          "accuracy": 0.0,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 70,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "FALSE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "UNKNOWN": {
+              "support": 70,
+              "tp": 0,
+              "fp": 0,
+              "fn": 70,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "error_rate": 1.0
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 70,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.0,
+            0.05202487486728348
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "UNKNOWN",
+            "n": 70,
+            "correct": 0,
+            "accuracy": 0.0,
+            "accuracy_ci95": [
+              0.0,
+              0.05202487486728348
+            ]
+          }
+        ]
+      },
+      {
+        "group": "RULE",
+        "metrics": {
+          "n": 60,
+          "correct": 40,
+          "accuracy": 0.6666666666666666,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 30,
+              "tp": 30,
+              "fp": 20,
+              "fn": 0,
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.7499999999999999,
+              "error_rate": 0.0
+            },
+            "FALSE": {
+              "support": 30,
+              "tp": 10,
+              "fp": 0,
+              "fn": 20,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5,
+              "error_rate": 0.6666666666666666
+            },
+            "UNKNOWN": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 30,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 20,
+              "FALSE": 10,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.540566298666634,
+            0.7727090578407216
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "TRUE",
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1.0,
+            "accuracy_ci95": [
+              0.8864829086095221,
+              1.0
+            ]
+          },
+          {
+            "gold_label": "FALSE",
+            "n": 30,
+            "correct": 10,
+            "accuracy": 0.3333333333333333,
+            "accuracy_ci95": [
+              0.19230295526846194,
+              0.5122027418616973
+            ]
+          }
+        ]
+      }
+    ],
+    "exploratory_by_position": [
+      {
+        "group": "FACT",
+        "metrics": {
+          "n": 80,
+          "correct": 80,
+          "accuracy": 1.0,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 50,
+              "tp": 50,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "error_rate": 0.0
+            },
+            "FALSE": {
+              "support": 30,
+              "tp": 30,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "error_rate": 0.0
+            },
+            "UNKNOWN": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 50,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 0,
+              "FALSE": 30,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.954180263735425,
+            1.0
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "TRUE",
+            "n": 50,
+            "correct": 50,
+            "accuracy": 1.0,
+            "accuracy_ci95": [
+              0.9286499658256813,
+              1.0
+            ]
+          },
+          {
+            "gold_label": "FALSE",
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1.0,
+            "accuracy_ci95": [
+              0.8864829086095221,
+              1.0
+            ]
+          }
+        ]
+      },
+      {
+        "group": "QUERY",
+        "metrics": {
+          "n": 20,
+          "correct": 1,
+          "accuracy": 0.05,
+          "macro_f1": null,
+          "invalid_output": 0,
+          "invalid_output_rate": 0.0,
+          "per_class": {
+            "TRUE": {
+              "support": 0,
+              "tp": 0,
+              "fp": 19,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            },
+            "FALSE": {
+              "support": 20,
+              "tp": 1,
+              "fp": 0,
+              "fn": 19,
+              "precision": 1.0,
+              "recall": 0.05,
+              "f1": 0.09523809523809523,
+              "error_rate": 0.95
+            },
+            "UNKNOWN": {
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "error_rate": null
+            }
+          },
+          "confusion": {
+            "TRUE": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "FALSE": {
+              "TRUE": 19,
+              "FALSE": 1,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            },
+            "UNKNOWN": {
+              "TRUE": 0,
+              "FALSE": 0,
+              "UNKNOWN": 0,
+              "invalid_output": 0
+            }
+          },
+          "macro_f1_note": "not computed: this slice does not contain all three gold labels",
+          "accuracy_ci95": [
+            0.008881219432873136,
+            0.23613589351256675
+          ]
+        },
+        "by_gold_label": [
+          {
+            "gold_label": "FALSE",
+            "n": 20,
+            "correct": 1,
+            "accuracy": 0.05,
+            "accuracy_ci95": [
+              0.008881219432873136,
+              0.23613589351256675
+            ]
+          }
+        ]
+      }
+    ],
+    "positions_absent_from_split": [],
+    "scopes_absent_from_split": [
+      "RULE_ANTECEDENT"
+    ],
+    "position_label_cells_with_zero_samples": [
+      {
+        "negation_position": "RULE",
+        "gold_label": "UNKNOWN"
+      },
+      {
+        "negation_position": "QUERY",
+        "gold_label": "TRUE"
+      }
+    ]
+  },
+  "distribution": {
+    "label": {
+      "TRUE": 80,
+      "FALSE": 80,
+      "UNKNOWN": 80
+    },
+    "negation_position": {
+      "FACT": 90,
+      "RULE": 60,
+      "QUERY": 90
+    },
+    "negation_scope": {
+      "ATOMIC_PREDICATE": 110,
+      "RULE_CONSEQUENT": 60,
+      "PROPOSITION": 35,
+      "QUANTIFIER": 35
+    },
+    "in_controlled_subset": {
+      "controlled": 140,
+      "exploratory": 100
+    }
+  }
+}

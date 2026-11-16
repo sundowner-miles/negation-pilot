@@ -1,0 +1,36 @@
+{
+  "run_id": "phase1-smoke-20261114",
+  "prompt_version": "plan-6.4-v1",
+  "models": [
+    {
+      "model_name": "Qwen/Qwen3.5-4B",
+      "model_path": "/root/autodl-tmp/models/Qwen/Qwen3.5-4B",
+      "model_revision": "modelscope-master-ed182e32"
+    },
+    {
+      "model_name": "Qwen/Qwen3.5-9B",
+      "model_path": "/root/autodl-tmp/models/Qwen/Qwen3.5-9B",
+      "model_revision": "modelscope-master-460979c3"
+    }
+  ],
+  "sample_ids": [
+    "ex-0120a",
+    "ex-0121a",
+    "ex-0120b",
+    "ex-0121b",
+    "ex-0515a",
+    "ex-0515b"
+  ],
+  "public": "data/generated/pilot.public.jsonl",
+  "gold_used_for": "sample selection and scoring only",
+  "decoding": {
+    "do_sample": false,
+    "temperature": 0,
+    "top_p": null,
+    "top_k": null,
+    "max_new_tokens": 32,
+    "enable_thinking": false,
+    "retry_limit": 0,
+    "note": "Greedy decoding (do_sample=false) is the temperature-0 condition. generate() does not receive a temperature keyword. top_p and top_k are unused. This is not the vendor sampling recipe for non-thinking mode."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "phase2-test-20261114",
+  "split": "test",
+  "n_per_model": 240,
+  "prompt_version": "plan-6.4-v1",
+  "decoding": {
+    "do_sample": false,
+    "temperature": 0,
+    "top_p": null,
+    "max_new_tokens": 32,
+    "enable_thinking": false,
+    "retry_limit": 0
+  },
+  "models": [
+    {
+      "model_name": "Qwen/Qwen3.5-4B",
+      "model_revision": "modelscope-master-ed182e32",
+      "predictions": "pilot_runs/phase2-test-20261114/Qwen-Qwen3.5-4B/predictions.jsonl"
+    },
+    {
+      "model_name": "Qwen/Qwen3.5-9B",
+      "model_revision": "modelscope-master-460979c3",
+      "predictions": "pilot_runs/phase2-test-20261114/Qwen-Qwen3.5-9B/predictions.jsonl"
+    }
+  ],
+  "gold_used_for": "scoring and subgroup analysis after predictions were written",
+  "not_run": ["dev", "train", "full 1200", "experiments 4-6"]
+}

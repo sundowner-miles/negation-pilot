@@ -1,0 +1,30 @@
+{
+  "run_id": "phase3-ablation-20261114",
+  "split": "test",
+  "prompt_version": "plan-6.4-v1",
+  "ablation_generator_version": "ablation-plan-6.4-v1",
+  "decoding": {
+    "do_sample": false,
+    "temperature": 0,
+    "top_p": null,
+    "max_new_tokens": 32,
+    "enable_thinking": false,
+    "retry_limit": 0
+  },
+  "experiments_4_and_5_predictions": "pilot_runs/phase2-test-20261114",
+  "experiment_6_input": "pilot_runs/phase3-test-20261114/ablation/ablation.public.jsonl",
+  "rendered": 155,
+  "excluded": 85,
+  "excluded_reason": "symbol pack has no sentence for the ablated formula",
+  "models": [
+    {
+      "model_name": "Qwen/Qwen3.5-4B",
+      "model_revision": "modelscope-master-ed182e32"
+    },
+    {
+      "model_name": "Qwen/Qwen3.5-9B",
+      "model_revision": "modelscope-master-460979c3"
+    }
+  ],
+  "not_run": ["train equivalent-form pairs", "dev", "full 1200", "excluded ablation formulas"]
+}

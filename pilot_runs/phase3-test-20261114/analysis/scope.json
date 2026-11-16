@@ -1,0 +1,19 @@
+{
+  "scope": {
+    "equivalent_pairs_by_split": {
+      "test": 35,
+      "train": 46
+    },
+    "rule_consequent_contrast_by_split_depth": {
+      "dev depth 3": 30,
+      "test depth 1": 30,
+      "test depth 3": 30,
+      "train depth 1": 30,
+      "train depth 5": 60
+    }
+  },
+  "exclusions": {
+    "negated_disjunct": 50,
+    "existential_counterexample": 35
+  }
+}

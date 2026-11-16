@@ -1,0 +1,6 @@
+{"sample_id": "ex-0120a", "split": "dev", "gold_label": "TRUE", "predicted_label": "TRUE", "correct": true, "parse_status": "exact"}
+{"sample_id": "ex-0121a", "split": "dev", "gold_label": "TRUE", "predicted_label": "TRUE", "correct": true, "parse_status": "exact"}
+{"sample_id": "ex-0120b", "split": "dev", "gold_label": "FALSE", "predicted_label": "TRUE", "correct": false, "parse_status": "exact"}
+{"sample_id": "ex-0121b", "split": "dev", "gold_label": "FALSE", "predicted_label": "TRUE", "correct": false, "parse_status": "exact"}
+{"sample_id": "ex-0515a", "split": "dev", "gold_label": "UNKNOWN", "predicted_label": "FALSE", "correct": false, "parse_status": "exact"}
+{"sample_id": "ex-0515b", "split": "dev", "gold_label": "UNKNOWN", "predicted_label": "FALSE", "correct": false, "parse_status": "exact"}

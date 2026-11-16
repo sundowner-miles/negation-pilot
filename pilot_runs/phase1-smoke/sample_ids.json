@@ -1,0 +1,14 @@
+{
+  "split": "dev",
+  "n_per_label": 2,
+  "rule": "sample_id ascending, first n_per_label of each gold label",
+  "sample_ids": [
+    "ex-0120a",
+    "ex-0121a",
+    "ex-0120b",
+    "ex-0121b",
+    "ex-0515a",
+    "ex-0515b"
+  ],
+  "purpose": "pipeline smoke test, not a performance estimate"
+}

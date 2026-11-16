@@ -103,9 +103,12 @@ The evaluated model is told:
 ```
 configs/pilot.yaml          quotas, depths, packs, seed
 src/negpilot/               AST, Z3 semantics, templates, renderer, generator
+src/negpilot/evalkit/       Pilot inference, parsing, scoring, experiments 1–6
 data/generated/             pilot.public.jsonl and pilot.gold.jsonl
-reports/                    distribution.json and pilot_report.md
-tests/                      semantics, generator, pairs, dataset audit
+pilot_runs/                 smoke, test, and ablation predictions and reports
+reports/                    dataset audits and the experiments 1–6 report
+Negation_Pilot_Experiment_Plan_Dataset_v1.1.md  experiment plan
+tests/                      semantics, generator, pairs, dataset audit, evalkit
 ```
 
 `pilot.public.jsonl` is the evaluation input. It has no gold label, binary
